@@ -2,9 +2,6 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { DialogSelect } from './dialog-select';
 
-describe('DialogSelect', () => {
-  let component: DialogSelect;
-  let fixture: ComponentFixture<DialogSelect>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -20,4 +17,3 @@ describe('DialogSelect', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-});
